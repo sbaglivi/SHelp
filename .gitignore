@@ -1,0 +1,4 @@
+.env
+*.sqlite
+shelp.egg-info
+__pycache__

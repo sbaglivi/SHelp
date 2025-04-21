@@ -1,0 +1,15 @@
+[project]
+name = "shelp"
+version = "0.1.0"
+dependencies = [
+    "google-ai-generativelanguage",
+    "langgraph",
+    "langchain",
+    "langchain-google-genai",
+    "langgraph-checkpoint-sqlite",
+    "SQLAlchemy",
+    "chromadb"
+]
+
+[project.scripts]
+shelp = "shelp.main:main"
